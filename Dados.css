@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(229, 204, 173);
+    text-align: center;
+}
+.dados{
+    padding: 10px;
+    box-shadow: 0px 10px 40px rgba(0,0,0,0.5);
+    margin-top: 100px;
+    height: 80px;
+    width: 80px;
+
+}
+#res{
+
+  height: 100px;                 /*Altura*/
+  width: 100px;                  /*Largura*/
+  margin: 100px auto;            /*Distancia entre a borda*/
+  background: white;           /*Fundo*/
+  border: 2px solid black;     /*Define a borda*/
+  border-radius: 10px;           /*Deixa a borda redonda*/
+  font-size: 4em;                /*Tamanho da fonte*/
+  line-height: 100px;            
+  text-align: center;            /*Alinhamento*/
+  box-shadow: 0px 10px 40px rgba(0,0,0,0.5);
+}
+#rodape{
+
+    margin-top: auto;
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+    padding: 20px; /* Espaçamento interno do rodapé */
+    position: fixed; /* Fixa o rodapé na parte inferior da janela de visualização */
+    bottom: 0; /* Alinha o rodapé ao fundo da janela */
+    width: 100%; /*O rodape vai ocupar toda a tela*/
+
+}
